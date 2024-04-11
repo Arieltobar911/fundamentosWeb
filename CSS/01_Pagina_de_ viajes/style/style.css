@@ -8,3 +8,28 @@ font-family:Arial, sans-serif ; /* cambia tipo grafia */
 margin: 0; /* elimina todo el margen por defecto */
 padding: 0; /* elimina todo el relleno de los elementos */
 }
+/* Acá viene el estilo de una clase container */
+.container {
+    width: 80%; /* Establece el ancho del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente  el contenerdor */
+}
+/* Estilo de encabezado */
+header {
+    background-color: #333; /* Establece el color del fondo */
+    color: #fff; /* Establece el color del texto */
+    padding: 20px 0; /* Añade rellenosuperior e inferior */
+}
+
+header h1{
+    margin: 0; /* Elimina el margen por defecto del titulo */
+}
+/* Estilo de elemento de lista */
+nav ul li{
+    display:inline; /* alineo los elementos */
+    margin-right: 20px; /* Margen hacia la derecha */
+}
+/* Estilo a elementos de vinculo ancla de navegacion */
+nav ul li a{
+    color: #fff; /* Color a elemento Anchor */
+    text-decoration: none; /* Quita subrayando los enlaces */
+}
