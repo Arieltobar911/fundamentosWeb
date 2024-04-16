@@ -63,9 +63,31 @@ section {
 .btn:hover {
     background-color: #0056b3;
 }
+
+.destinos-container{
+    display: flex; /* Utiliza flex box para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma linea, agregan una nueva linea con estos elementos extras */
+}
+.destino{
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    margin-bottom: 20px; /* Define el margen inferior */
+    text-align: center; /* Centra el texto */
+}
+.destino img{
+    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    border-radius: 8px; /* Agrega esquinas redondeadas */
+}
+.destino h3{
+    margin-top: 10px; /* Agrega distancia entre imagen y h3 */
+}
+.destino p{
+    margin-top: 10px; /* Agrega distancia superior entre h3 y p */
+}
+
 footer{
-    backgound-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+    background-color: #333; /* EStablece color fondo de footer */
+    color: #fff; /* Establece color de texto de footer */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Añade relleno superior e inferior */
 }
