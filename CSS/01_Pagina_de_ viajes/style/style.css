@@ -69,6 +69,7 @@ section {
     justify-content: space-between; /* Distribuye uniformemente los elementos */
     flex-wrap: wrap; /* Si los elementos no caben en la misma linea, agregan una nueva linea con estos elementos extras */
 }
+
 .destino{
     width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
     margin-bottom: 20px; /* Define el margen inferior */
@@ -90,4 +91,40 @@ footer{
     color: #fff; /* Establece color de texto de footer */
     text-align: center; /* Centra el texto */
     padding: 20px; /* Añade relleno superior e inferior */
+}
+
+/* Aqui va el estilo del formulario de contacto */
+
+#contacto{
+    padding:40px 0;
+}
+
+#contacto .container{
+    text-align: center;
+}
+
+#contacto h2{
+    margin-bottom: 20px;
+}
+#contacto form{
+    max-width: 500px; /* Establece el ancho máximo del elemento formulario */
+    margin: o auto; /* Centra Horizontalmente dentro del contenedor */
+    padding:20px;
+    background-color: #acbb54;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Establece una sombra alrededor del formulario */
+}
+#contacto label{
+    display: block; /* Etiquetas en bloques */
+    margin-bottom: 10px;
+    font-weight: bold; /* Establece fuente en negrita */
+}
+#contacto input, #contacto textarea{
+    resize: vertical; /* Permite redimensionar el Area del texto pero verticalmente */
+    width: 100%;
+    padding:10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el paddieng y el borde del ancho dentro del elemento que lo contiene */
 }
